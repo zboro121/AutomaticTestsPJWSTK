@@ -1,3 +1,4 @@
+package zad;
 
 class TimeConverter {
     int hoursToMinutes(int hours) {

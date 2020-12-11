@@ -1,3 +1,4 @@
+package zad;
 
 class TimeTest {
     public static void main(String[] args) {

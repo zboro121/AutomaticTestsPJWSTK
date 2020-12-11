@@ -1,3 +1,4 @@
+package zad;
 
 class MetricTest {
     public static void main(String[] args) {
