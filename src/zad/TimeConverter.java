@@ -1,15 +1,15 @@
 package zad;
 
-class TimeConverter {
-    int hoursToMinutes(int hours) {
+public class TimeConverter {
+    public int hoursToMinutes(int hours) {
         return hours * 60;
     }
     
-    int minutesToSeconds(int minutes) {
+    public int minutesToSeconds(int minutes) {
         return minutes * 60;
     }
     
-    int secondsToMiliseconds(int seconds) {
+    public int secondsToMiliseconds(int seconds) {
         return seconds * 1000;
     }
 }

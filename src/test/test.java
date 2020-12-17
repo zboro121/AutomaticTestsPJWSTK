@@ -6,15 +6,15 @@ import org.junit.Test;
 import zad.MetricConverter;
 
 public class test {
-    private MetricConverter time;
+    private MetricConverter lenght;
     @Before
-    public void setUp() {
-    	time = new MetricConverter();
+    public void setUp(){
+    	lenght = new MetricConverter();
     }
     @Test
     public void metersToCmShouldCalculate(){
     	double expected = 1000;
-        time.metersToCm(10);
-        Assert.assertEquals(time.metersToCm(10),expected,0);
+    	lenght.metersToCm(10);
+        Assert.assertEquals(lenght.metersToCm(10), expected,0);
     }
 }

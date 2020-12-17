@@ -1,6 +1,6 @@
 package zad;
 
-class MetricTest {
+public class MetricTest {
     public static void main(String[] args) {
         MetricConverter converter = new MetricConverter();
         double m = 2.5;
