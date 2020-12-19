@@ -5,8 +5,8 @@ Zostały stworzone dwa testy, które weryfikują działanie dwóch stron:
 1)http://www.kurs-selenium.pl/demo/
 2)https://www.upc.pl
 
-Pierwsza strona zwiera test, który wyszukuje możliwość podróży do wskazanej lokalizacji.
-Drugi test sprawdza czy są dostępne usługi telekomunikacyjne pod naszym adresem oraz wyświetla informację o dodatkowych dostępnych usługach.
+Pierwsza scenariusz zwiera test, który wyszukuje możliwość podróży do wskazanej lokalizacji.
+Drugi tescenariusz sprawdza czy są dostępne usługi telekomunikacyjne pod naszym adresem oraz wyświetla informację o dodatkowych dostępnych usługach.
 Testy zostały przeprowadzone na przeglądarce Chrome. 
 
 1. Logi
