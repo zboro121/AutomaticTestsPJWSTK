@@ -2,6 +2,7 @@ package main.java;
 
 import java.util.Scanner;
 
+// Dodatkowa funkcjonalnosci silnia, wartosc bezwzgledna, pierwiastkowanie
 public class Calculator {
 	public double add(double a, double b) {
 		return a + b;
@@ -24,7 +25,6 @@ public class Calculator {
     }
 public static void main(String[] args) {
 	try (Scanner in = new Scanner(System.in)) {
-		// Dodatkowa funkcjonalnosc
 		//Pierwiastkowanie drugiego stopnia, to metoda Math.sqrt(d)
 		System.out.println("Pierwiastek drugiego stopnia z liczby 16 wynosi:\n" + Math.sqrt(16));
 		System.out.println("\nPodaj przykładową liczbę");
