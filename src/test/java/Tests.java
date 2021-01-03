@@ -1,60 +1,102 @@
 package test.java;
+import static org.junit.Assert.assertEquals;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+import static org.mockito.BDDMockito.*;
+
 import org.junit.Assert;
 import org.junit.Test;
 
+
 import main.java.Calculator;
-import main.java.MetricConverter;
-import main.java.TimeConverter;
+
 
 public class Tests {
-    private Calculator digit;
-    private MetricConverter lenght;
-    private TimeConverter time;
-    private Calculator wynik;
-    private Calculator pierwiastek;
-    private Calculator bezwzgledna;
-
+    private double resultsAdd, resultsSubtract, resultsMultiply, resultsDivide;
 
     @Test
-    public void digitCalculate(){
-    	digit = new Calculator();
-    	double expected = 10;
-    	double result = 10;
-        Assert.assertEquals(digit.subtract(20, result), expected,0);
+    public void addCalculate(){
+    	Calculator digit = new Calculator();
+    	resultsAdd = digit.add(5, 10);    	 	
+    	double expected = 15;
+        Assert.assertEquals(digit.add(5, 10), expected,0);
+        System.out.println(resultsAdd);  
     }
     @Test
-    public void metersToCmCalculate(){
-    	lenght = new MetricConverter();
-    	double expected = 1000;
-    	lenght.metersToCm(10);
-        Assert.assertEquals(lenght.metersToCm(10), expected,0);
+    public void addCalculate2(){
+    	Calculator digit = mock(Calculator.class);
+    	resultsAdd = digit.add(5, 10);    	 	
+    	double expected = 15;
+        Assert.assertEquals(digit.add(5, 10), expected,0);
+        System.out.println(resultsAdd);  
     }
     @Test
-    public void hoursToMinutesCalculate(){
-    	time = new TimeConverter();
-    	double expected = 600;
-    	time.hoursToMinutes(10);
-        Assert.assertEquals(time.hoursToMinutes(10), expected,0);
+    public void addCalculate3(){
+    	Calculator digit = mock(Calculator.class);
+    	resultsAdd = digit.add(5, 10);    	 	
+    	double expected = 0;
+        Assert.assertEquals(digit.add(5, 10), expected,0);
+        System.out.println(resultsAdd);  
     }
     @Test
-    public void silniaCalculate() {
-    	wynik = new Calculator();
-    	double expected = 6;
-    	Calculator.silnia(3);
-        Assert.assertEquals(Calculator.silnia(3), expected,0);
+    public void addCalculate4(){
+    	Calculator digit = mock(Calculator.class);
+    	when(digit.add(5, 10)).thenReturn((double) 15);
+    	resultsAdd = digit.add(5, 10);    	 	
+    	double expected = 15;
+        Assert.assertEquals(digit.add(5, 10), expected,0);
+        System.out.println(resultsAdd);  
     }
     @Test
-    public void pierwiastekCalculate() {
-    	pierwiastek = new Calculator();
-    	double expected = 4;
-    	Math.sqrt(16);
-    	System.out.println("Pierwiastek drugiego stopnia z liczby 16 wynosi:\n" + Math.sqrt(16));
+    public void addCalculate5(){
+    	Calculator digit = mock(Calculator.class);
+    	given(digit.add(5, 10)).willReturn((double) 15);
+    	resultsAdd = digit.add(5, 10);    	 	
+    	double expected = 15;
+        Assert.assertEquals(digit.add(5, 10), expected,0);
+        System.out.println(resultsAdd);  
     }
     @Test
-    public void wartBezwzglednaCalculate() {
-    	bezwzgledna = new Calculator();
-    	double expected = 4;
-    	int nDodatnia = Math.abs(-4);
-    	System.out.println("Wartość bezwzględna z liczby -4 wynosi "+ nDodatnia);
+    public void subtractCalculate(){
+    	Calculator orion = new Calculator();
+    	resultsSubtract = orion.subtract(10, 5);    	 	
+    	double expected = 5;
+        Assert.assertEquals(orion.subtract(10, 5), expected,0);
+        System.out.println(resultsSubtract);  
     }
+    @Test
+    public void subtractCalculate2(){
+    	Calculator orion = mock(Calculator.class);
+    	resultsAdd = orion.subtract(10, 5);    	 	
+    	double expected = 5;
+    	Assert.assertEquals(orion.subtract(10, 5), expected,0);
+        System.out.println(resultsAdd);  
+    }
+    @Test
+    public void subtractCalculate3(){
+    	Calculator orion = mock(Calculator.class);
+    	resultsAdd = orion.subtract(10, 5);    	 	
+    	double expected = 0;
+    	Assert.assertEquals(orion.subtract(10, 5), expected,0);
+        System.out.println(resultsAdd);  
+    }
+    @Test
+    public void subtractCalculate4(){
+    	Calculator orion = mock(Calculator.class);
+    	when(orion.subtract(10, 5)).thenReturn((double) 5);
+    	resultsAdd = orion.subtract(10, 5);    	 	
+    	double expected = 5;
+    	Assert.assertEquals(orion.subtract(10, 5), expected,0);
+        System.out.println(resultsAdd);  
+    }
+    @Test
+    public void subtractCalculate5(){
+    	Calculator orion = mock(Calculator.class);
+    	given(orion.subtract(10, 5)).willReturn((double) 5);
+    	resultsAdd = orion.subtract(10, 5);    	 	
+    	double expected = 5;
+    	Assert.assertEquals(orion.subtract(10, 5), expected,0);
+        System.out.println(resultsAdd);  
+    }    
+
 }
