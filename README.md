@@ -26,7 +26,7 @@ C:\Users\pazwik\Desktop\studia\semestr 7\TestyAutomatyczne\JavaWorkspace\Kalkula
 [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ kalukaltoryIprzeliczniki ---
 [INFO] Changes detected - recompiling the module!
 [WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
-[INFO] Compiling 3 source files to C:\Users\pazwik\Desktop\studia\semestr 7\TestyAutomatyczne\JavaWorkspace\KalkulatorJava\TAUlab3\target\test-classes
+[INFO] Compiling 1 source file to C:\Users\pazwik\Desktop\studia\semestr 7\TestyAutomatyczne\JavaWorkspace\KalkulatorJava\TAUlab3\target\test-classes
 [INFO]
 [INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ kalukaltoryIprzeliczniki ---
 [INFO] Surefire report directory: C:\Users\pazwik\Desktop\studia\semestr 7\TestyAutomatyczne\JavaWorkspace\KalkulatorJava\TAUlab3\target\surefire-reports
@@ -35,14 +35,16 @@ C:\Users\pazwik\Desktop\studia\semestr 7\TestyAutomatyczne\JavaWorkspace\Kalkula
  T E S T S
 -------------------------------------------------------
 Running test.java.Tests
+2.0
 Warto┼Ť─ç bezwzgl─Ödna z liczby -4 wynosi 4
 Pierwiastek drugiego stopnia z liczby 16 wynosi:
 4.0
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.242 sec
+50.0
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.15 sec
 
 Results :
 
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
 
 [INFO]
 [INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ kalukaltoryIprzeliczniki ---
@@ -54,8 +56,8 @@ Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  4.973 s
-[INFO] Finished at: 2021-01-03T00:54:06+01:00
+[INFO] Total time:  4.584 s
+[INFO] Finished at: 2021-01-03T15:11:42+01:00
 [INFO] ------------------------------------------------------------------------
 
 C:\Users\pazwik\Desktop\studia\semestr 7\TestyAutomatyczne\JavaWorkspace\KalkulatorJava\TAUlab3>
