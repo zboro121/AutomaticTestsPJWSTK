@@ -7,12 +7,10 @@ import main.java.MetricConverter;
 import main.java.TimeConverter;
 
 public class Tests {
-    private Calculator digit;
+    private Calculator digit, wynik, pierwiastek, bezwzgledna;
     private MetricConverter lenght;
     private TimeConverter time;
-    private Calculator wynik;
-    private Calculator pierwiastek;
-    private Calculator bezwzgledna;
+    private double resultsMultiply, resultsDivide;
 
 
     @Test
@@ -35,6 +33,22 @@ public class Tests {
     	double expected = 600;
     	time.hoursToMinutes(10);
         Assert.assertEquals(time.hoursToMinutes(10), expected,0);
+    }
+    @Test
+    public void multiplyCalculate(){
+    	Calculator sun = new Calculator();
+    	resultsMultiply = sun.multiply(5, 10);    	 	
+    	double expected = 50;
+        Assert.assertEquals(sun.multiply(5, 10), expected,0);
+        System.out.println(resultsMultiply);  
+    }
+    @Test
+    public void divideCalculate(){
+    	Calculator jupiter = new Calculator();
+    	resultsDivide = jupiter.divide(10, 5);    	 	
+    	double expected = 2;
+        Assert.assertEquals(jupiter.divide(10, 5), expected,0);
+        System.out.println(resultsDivide);  
     }
     @Test
     public void silniaCalculate() {
