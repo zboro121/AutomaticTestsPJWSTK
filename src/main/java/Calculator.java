@@ -2,7 +2,7 @@ package main.java;
 
 import java.util.Scanner;
 
-// Dodatkowa funkcjonalnosci silnia, wartosc bezwzgledna, pierwiastkowanie
+// Dodatkowa funkcjonalnosci silnia, wartosc bezwzgledna, pierwiastkowanie 
 public class Calculator {
 	public double add(double a, double b) {
 		return a + b;
