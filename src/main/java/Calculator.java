@@ -26,7 +26,6 @@ public static void main(String[] args) {
 	try (Scanner in = new Scanner(System.in)) {
 		// Dodatkowa funkcjonalnosc
 		//Pierwiastkowanie drugiego stopnia, to metoda Math.sqrt(d)
-		double pi = Math.PI;
 		System.out.println("Pierwiastek drugiego stopnia z liczby 16 wynosi:\n" + Math.sqrt(16));
 		System.out.println("\nPodaj przykładową liczbę");
 		double liczbaD = in.nextDouble();
