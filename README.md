@@ -4,14 +4,15 @@ Jest to framework do testów jednostkowych.
 Dokumentacja: https://bach.sh/
 
 Zrzut z ekranu po wykonaniu testu:
-
+* [Screens]
 TestTAUBach.PNG
 
 Poniżej skrypty do tego projektu
 
 # bach.sh
+* [Code](https://github.com/zboro121/AutomaticTestsPJWSTK/blob/LAB5/bach.sh)
 # example.sh
-
+* [Code](https://github.com/zboro121/AutomaticTestsPJWSTK/blob/LAB5/example.sh)
 Co to jest Bach:
 
 Platforma testująca skrypty Bashowskie używana do testowania skryptów, które zawierają są niezbezpieczne z perspeltywy działania systemu. np. usunięcie pliku rekursywnie rm -rf "name_files".
