@@ -21,6 +21,11 @@ Przebieg instalacji:
 
 Dodajemy do projektu skrypt bach.sh do swojego projektu, używamy polecenia "source" w celu importu skryptu. 
 
+ * Import skryptu:
+    ```
+    source bach.sh
+    ```
+
 Przypadki testowe:
 
 Do tego przykładu Bacha zostały wykorzystane dwie funkcje. Jedno służy do przeprowadzania testów, a drugei do potwierdzania. Bach uruchomi te dwie funkcje oddzielnie, a następnie porówna, czy ta sama sekwencja poleceń zostanie wykonana w obu funkcjach. Nazwa funkcji testującej musi zaczynać się od test-, nazwa odpowiedniej funkcji potwierdzającej kończy się -assert.
