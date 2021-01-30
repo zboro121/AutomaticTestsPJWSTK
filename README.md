@@ -2,11 +2,7 @@
 
 Dokumentacja: https://bach.sh/
 
-Zrzut z ekranu po wykonaniu testu:
 
-# TestTAUBach.PNG
-
-* [Screens](https://github.com/zboro121/AutomaticTestsPJWSTK/blob/LAB5/TestTAUBach.PNG)
 
 Poniżej skrypty do tego projektu
 
@@ -14,6 +10,13 @@ Poniżej skrypty do tego projektu
 * [Code](https://github.com/zboro121/AutomaticTestsPJWSTK/blob/LAB5/bach.sh)
 # example.sh
 * [Code](https://github.com/zboro121/AutomaticTestsPJWSTK/blob/LAB5/example.sh)
+
+Zrzut z ekranu po wykonaniu testu:
+
+# TestTAUBach.PNG
+
+* [Screens](https://github.com/zboro121/AutomaticTestsPJWSTK/blob/LAB5/TestTAUBach.PNG)
+
 Co to jest Bach:
 
 Platforma testująca skrypty Bashowskie używana do testowania skryptów, które zawierają są niezbezpieczne z perspeltywy działania systemu. np. usunięcie pliku rekursywnie rm -rf "name_files".
