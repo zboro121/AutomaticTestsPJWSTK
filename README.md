@@ -1,11 +1,13 @@
-BASH bach.sh
+BASH - BACH
+Jest to framework do testów jednostkowych. 
+Dokumentacja: https://bach.sh/
+
 Poniżej skrypty do tego projektu
 
 # bach.sh
 # example.sh
 
 Co to jest Bach:
-Jest to framework do testów jednostkowych. 
 Platforma testująca skrypty Bashowskie używana do testowania skryptów, które zawierają są niezbezpieczne z perspeltywy działania systemu. np. usunięcie pliku rekursywnie rm -rf "name_files".
 Polecenia w przypadkach testowych Bacha są uruchamiane na bez ingerencji w system, weryfikują działanie skryptów bash, a nie testowanie poleceń. 
 
