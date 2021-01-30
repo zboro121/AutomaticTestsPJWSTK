@@ -20,7 +20,7 @@ Zrzut z ekranu po wykonaniu testu:
 Co to jest Bach:
 
 Platforma testująca skrypty Bashowskie używana do testowania skryptów, które zawierają sniezbezpieczne działania z perspektywy funkcjonowania systemu. np. usunięcie pliku rekursywnie rm -rf "name_files".
-Polecenia w przypadkach testowych Bacha są uruchamiane na bez ingerencji w system, weryfikują działanie skryptów bash, a nie testowanie poleceń. 
+Polecenia w przypadkach testowych Bacha są uruchamiane bez ingerencji w system, weryfikują działanie skryptów bash, a nie testowanie poleceń. 
 
 Przebieg instalacji:
 
@@ -37,7 +37,7 @@ Dodajemy do projektu skrypt bach.sh do swojego projektu, używamy polecenia "sou
 
 Przypadki testowe:
 
-Do tego przykładu Bacha zostały wykorzystane dwie funkcje. Jedno służy do przeprowadzania testów, a drugei do potwierdzania. Bach uruchomi te dwie funkcje oddzielnie, a następnie porówna, czy ta sama sekwencja poleceń zostanie wykonana w obu funkcjach. Nazwa funkcji testującej musi zaczynać się od test-, nazwa odpowiedniej funkcji potwierdzającej kończy się -assert.
+Do tego przykładu Bacha zostały wykorzystane dwie funkcje. Jedno służy do przeprowadzania testów, a drugie do potwierdzania. Bach uruchomi te dwie funkcje oddzielnie, a następnie porówna, czy ta sama sekwencja poleceń zostanie wykonana w obu funkcjach. Nazwa funkcji testującej musi zaczynać się od test-, nazwa odpowiedniej funkcji potwierdzającej kończy się -assert.
 
 Bach będzie uruchamiał te dwie funkcje osobno, test-rm-rfa test-rm-rf-assert. W funkcji testującej test-rm-rf ostatnią rzeczywistą komendą do wykonania jest sudo rm -rf "/". To to samo, co funkcja potwierdzająca test-rm-rf-assert. Więc ten przypadek testowy przechodzi.
 
