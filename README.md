@@ -30,6 +30,10 @@ Dodajemy do projektu skrypt bach.sh do swojego projektu, używamy polecenia "sou
     ```
     source bach.sh
     ```
+ * Wykonanie skryptu:
+    ```
+    ./example.sh
+    ```
 
 Przypadki testowe:
 
