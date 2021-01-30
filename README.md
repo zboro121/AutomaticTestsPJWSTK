@@ -19,7 +19,7 @@ Zrzut z ekranu po wykonaniu testu:
 
 Co to jest Bach:
 
-Platforma testująca skrypty Bashowskie używana do testowania skryptów, które zawierają są niezbezpieczne z perspeltywy działania systemu. np. usunięcie pliku rekursywnie rm -rf "name_files".
+Platforma testująca skrypty Bashowskie używana do testowania skryptów, które zawierają sniezbezpieczne działania z perspektywy funkcjonowania systemu. np. usunięcie pliku rekursywnie rm -rf "name_files".
 Polecenia w przypadkach testowych Bacha są uruchamiane na bez ingerencji w system, weryfikują działanie skryptów bash, a nie testowanie poleceń. 
 
 Przebieg instalacji:
