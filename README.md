@@ -3,6 +3,10 @@ BASH - BACH
 Jest to framework do testów jednostkowych. 
 Dokumentacja: https://bach.sh/
 
+Zrzut z ekranu po wykonaniu testu:
+
+TestTAUBach.PNG
+
 Poniżej skrypty do tego projektu
 
 # bach.sh
