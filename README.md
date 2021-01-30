@@ -1,11 +1,12 @@
-BASH - BACH
+# BASH - BACH - framework do testów jednostkowych. 
 
-Jest to framework do testów jednostkowych. 
 Dokumentacja: https://bach.sh/
 
 Zrzut z ekranu po wykonaniu testu:
-* [Screens]
-TestTAUBach.PNG
+
+# TestTAUBach.PNG
+
+* [Screens](https://github.com/zboro121/AutomaticTestsPJWSTK/blob/LAB5/TestTAUBach.PNG)
 
 Poniżej skrypty do tego projektu
 
